@@ -11,7 +11,7 @@
         :button-render="buttonRender"
         :label-class-name="labelClassName"
         @on-expand="handleExpand"
-        @on-node-click="(e, data) => {$emit('on-node-click', e, data)}"
+        @on-node-click="handleNodeClick"
       ></org-tree-node>
     </div>
   </div>
@@ -157,6 +157,11 @@ export default {
           _this._toggleExpand(children, status)
         }
       }
+    },
+    handleNodeClick (e, data) {
+      this.$emit('on-node-click', e, data, () => {
+        this.handleExpand(data)
+      })
     },
     toggleExpand () {
       this._toggleExpand(this.dataCloned, this.expandAll)
