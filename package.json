@@ -1,6 +1,6 @@
 {
   "name": "v-org-tree",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "A simple organization tree chart based on Vue2.x",
   "main": "dist/v-org-tree.common.js",
