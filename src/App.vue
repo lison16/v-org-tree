@@ -8,8 +8,8 @@
       :data="data"
       collapsable
       :node-render="nodeRender"
-      :button-render="buttonRender"
       :expand-all="expandAll"
+      :horizontal="false"
       :props="props"
       @on-expand="onExpand"
       @on-node-click="onNodeClick"></org-tree>

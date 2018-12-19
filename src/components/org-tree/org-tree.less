@@ -48,22 +48,27 @@
   width: 0px;
   height: 0px;
   z-index: 10;
+  transform: translateX(-50%);
   & > *{
-    transform: translate(-50%, 9px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
   }
   .org-tree-node-btn {
-    margin-left: -11px;
-    margin-top: 9px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 50%;
     box-shadow: 0 0 2px rgba(0, 0, 0, .15);
     cursor: pointer;
     transition: all .35s ease;
+    transform: translate(-50%, 9px);
 
     &:hover {
       background-color: #e7e8e9;
-      transform: scale(1.15);
+      transform: translate(-50%, 9px) scale(1.15);
     }
 
     &:before, &:after {
@@ -230,11 +235,23 @@
     }
   }
 
-  .org-tree-node-btn {
+  .org-tree-button-wrapper{
+    position: absolute;
     top: 50%;
     left: 100%;
-    margin-top: -11px;
-    margin-left: 9px;
+    width: 0px;
+    height: 0px;
+    z-index: 10;
+    transform: translateY(-50%);
+    & > *{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+    .org-tree-node-btn {
+      display: inline-block;
+      transform: translate(9PX, -50%);
+    }
   }
 
   & > .org-tree-node:only-child:before {

@@ -52,9 +52,7 @@ export const renderBtn = (h, data, context) => {
     props.buttonRender
       ? props.buttonRender(h, data)
       : h('span', {
-        domProps: {
-          className: cls.join(' ')
-        }
+        'class': cls.join(' ')
       })
   ])
 }
