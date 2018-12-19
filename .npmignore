@@ -1,0 +1,9 @@
+.*
+*.md
+*.yml
+public/
+node_modules/
+src/App.vue
+src/main.js
+gulpfile.js
+.config.js
