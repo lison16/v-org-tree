@@ -231,13 +231,15 @@
   &.collapsable .org-tree-node.collapsed {
     padding-right: 30px;
 
-    .org-tree-node-label:after {
-      top: 0;
-      left: 100%;
-      width: 20px;
-      height: 50%;
-      border-right: 0;
-      border-bottom: 1px solid #ddd;
+    .org-tree-node-label{
+      &:after {
+        top: 0;
+        left: 100%;
+        width: 20px;
+        height: 50%;
+        border-right: 0;
+        border-bottom: 0.625em solid #ddd;
+      }
     }
   }
 

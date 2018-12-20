@@ -44,8 +44,8 @@ export default {
     onNodeClick (e, data) {
       console.log(data)
     },
-    onExpand (val) {
-      console.log(val)
+    onExpand (val, status) {
+      console.log(val, status)
     },
     buttonRender (h, data) {
       return (

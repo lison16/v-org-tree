@@ -138,7 +138,7 @@ export default {
       } else {
         this.$set(data, this.prop_expand, true)
       }
-      this.$emit('on-expand', data)
+      this.$emit('on-expand', data, data[this.prop_expand])
       this._updateExpandStatus()
     },
     _toggleExpand (data, status) {
