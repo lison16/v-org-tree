@@ -38,7 +38,7 @@ export const data = {
       dep_id: 4,
       label: '财务部'
     }, {
-      dep_id: 9,
+      dep_id: 11,
       label: 'HR人事'
     }
   ]

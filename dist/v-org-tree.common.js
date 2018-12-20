@@ -1029,13 +1029,6 @@ var store = global[SHARED] || (global[SHARED] = {});
 
 /***/ }),
 
-/***/ "5c48":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "5ca1":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1258,17 +1251,6 @@ module.exports = function (KEY) {
   });
 };
 
-
-/***/ }),
-
-/***/ "7c55":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_index_js_ref_10_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_less___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("5c48");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_index_js_ref_10_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_less___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_index_js_ref_10_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_less___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_node_modules_css_loader_index_js_ref_10_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_less___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -2160,13 +2142,6 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ca0e2238-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=85cd2488&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('div',{staticClass:"control-box"},[_c('button',{on:{"click":function($event){_vm.expandAll = !_vm.expandAll}}},[_vm._v(_vm._s(_vm.expandAll ? '收起' : '展开'))]),_c('button',{on:{"click":_vm.changeData}},[_vm._v("更新数据")])]),_c('org-tree',{attrs:{"data":_vm.data,"collapsable":"","node-render":_vm.nodeRender,"expand-all":_vm.expandAll,"horizontal":false,"props":_vm.props},on:{"on-expand":_vm.onExpand,"on-node-click":_vm.onNodeClick}})],1)}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=85cd2488&
-
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.function.name.js
 var es6_function_name = __webpack_require__("7f7f");
 
@@ -2179,12 +2154,12 @@ var es6_promise = __webpack_require__("551c");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es7.promise.finally.js
 var es7_promise_finally = __webpack_require__("097d");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ca0e2238-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/org-tree/org-tree.vue?vue&type=template&id=baa8d65c&
-var org_treevue_type_template_id_baa8d65c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"org-tree-container"},[_c('div',{staticClass:"org-tree",class:{horizontal: _vm.horizontal, collapsable: _vm.collapsable}},[_c('org-tree-node',{attrs:{"data":_vm.dataCloned,"props":_vm.props,"horizontal":_vm.horizontal,"label-width":_vm.labelWidth,"collapsable":_vm.collapsable,"node-render":_vm.nodeRender,"button-render":_vm.buttonRender,"label-class-name":_vm.labelClassName},on:{"on-expand":_vm.handleExpand,"on-node-click":_vm.handleNodeClick}})],1)])}
-var org_treevue_type_template_id_baa8d65c_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ca0e2238-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/org-tree/org-tree.vue?vue&type=template&id=44e55328&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"org-tree-container"},[_c('div',{staticClass:"org-tree",class:{horizontal: _vm.horizontal, collapsable: _vm.collapsable}},[_c('org-tree-node',{attrs:{"data":_vm.dataCloned,"props":_vm.props,"horizontal":_vm.horizontal,"label-width":_vm.labelWidth,"collapsable":_vm.collapsable,"node-render":_vm.nodeRender,"button-render":_vm.buttonRender,"label-class-name":_vm.labelClassName},on:{"on-expand":_vm.handleExpand,"on-node-click":_vm.handleNodeClick}})],1)])}
+var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/org-tree/org-tree.vue?vue&type=template&id=baa8d65c&
+// CONCATENATED MODULE: ./src/components/org-tree/org-tree.vue?vue&type=template&id=44e55328&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
@@ -2476,7 +2451,7 @@ var clonedeep_default = /*#__PURE__*/__webpack_require__.n(clonedeep);
         this.$set(data, this.prop_expand, true);
       }
 
-      this.$emit('on-expand', data);
+      this.$emit('on-expand', data, data[this.prop_expand]);
 
       this._updateExpandStatus();
     },
@@ -2637,8 +2612,8 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   org_tree_org_treevue_type_script_lang_js_,
-  org_treevue_type_template_id_baa8d65c_render,
-  org_treevue_type_template_id_baa8d65c_staticRenderFns,
+  render,
+  staticRenderFns,
   false,
   null,
   null,
@@ -2671,169 +2646,10 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 /* harmony default export */ var components_org_tree = (org_tree);
-// CONCATENATED MODULE: ./src/data.js
-var data_data = {
-  dep_id: 0,
-  label: 'XXX科技有限公司',
-  dep_children: [{
-    dep_id: 2,
-    label: '产品研发部',
-    dep_children: [{
-      dep_id: 5,
-      label: '研发-前端'
-    }, {
-      dep_id: 6,
-      label: '研发-后端'
-    }, {
-      dep_id: 9,
-      label: 'UI设计'
-    }, {
-      dep_id: 10,
-      label: '产品经理'
-    }]
-  }, {
-    dep_id: 3,
-    label: '销售部',
-    dep_children: [{
-      dep_id: 7,
-      label: '销售一部'
-    }, {
-      dep_id: 8,
-      label: '销售二部'
-    }]
-  }, {
-    dep_id: 4,
-    label: '财务部'
-  }, {
-    dep_id: 9,
-    label: 'HR人事'
-  }]
-};
-var data_newData = {
-  dep_id: 0,
-  label: 'XXX科技有限公司',
-  dep_children: [{
-    dep_id: 2,
-    label: '产品研发部',
-    dep_children: [{
-      dep_id: 5,
-      label: '研发-前端'
-    }, {
-      dep_id: 6,
-      label: '研发-后端'
-    }, {
-      dep_id: 9,
-      label: 'UI设计'
-    }]
-  }, {
-    dep_id: 3,
-    label: '销售部',
-    dep_children: [{
-      dep_id: 7,
-      label: '销售一部'
-    }]
-  }, {
-    dep_id: 4,
-    label: '财务部'
-  }, {
-    dep_id: 9,
-    label: 'HR人事'
-  }]
-};
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-/* harmony default export */ var Appvue_type_script_lang_js_ = ({
-  name: 'app',
-  data: function data() {
-    return {
-      data: data_data,
-      expandAll: false,
-      props: {
-        id: 'dep_id',
-        label: 'title',
-        expand: 'expand',
-        children: 'dep_children'
-      }
-    };
-  },
-  components: {
-    OrgTree: components_org_tree
-  },
-  methods: {
-    nodeRender: function nodeRender(h, data) {
-      // console.log(data)
-      return h("span", [data.label]);
-    },
-    onNodeClick: function onNodeClick(e, data) {
-      console.log(data);
-    },
-    onExpand: function onExpand(val) {
-      console.log(val);
-    },
-    buttonRender: function buttonRender(h, data) {
-      return h("div", {
-        style: {
-          width: '20px',
-          height: '20px',
-          background: data.expand ? 'red' : 'yellow'
-        }
-      });
-    },
-    changeData: function changeData() {
-      this.data = data_newData;
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/App.vue?vue&type=script&lang=js&
- /* harmony default export */ var src_Appvue_type_script_lang_js_ = (Appvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/App.vue?vue&type=style&index=0&lang=less&
-var Appvue_type_style_index_0_lang_less_ = __webpack_require__("7c55");
-
-// CONCATENATED MODULE: ./src/App.vue
-
-
-
-
-
-
-/* normalize component */
-
-var App_component = normalizeComponent(
-  src_Appvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-App_component.options.__file = "App.vue"
-/* harmony default export */ var App = (App_component.exports);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (App);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (components_org_tree);
 
 
 
@@ -2859,5 +2675,5 @@ module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u20
 
 /***/ })
 
-/******/ })["default"];
+/******/ });
 //# sourceMappingURL=v-org-tree.common.js.map
