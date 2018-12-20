@@ -2,9 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/v-org-tree.svg)]()
 
-v-org-tree是一个基于Vue.js2封装的组织结构树组件，支持自定义节点和收缩按钮，高自由度定制，有水平和垂直两种方向。
+v-org-tree是一个基于Vue.js2封装的组织结构树组件，支持自定义节点和收缩按钮，高自由度定制，有水平和垂直两种方向。
 
-> 本插件借鉴了[vue-org-tree](https://github.com/hukaibaihu/vue-org-tree)实现数据到结构树的呈现。优化了对数据的更新以及一些操作的方式，添加了一些api。
+> 本插件借鉴了[vue-org-tree](https://github.com/hukaibaihu/vue-org-tree)实现数据到结构树的呈现。优化了对数据的更新以及一些操作的方式，添加了一些api。
 
 ## Install
 ```
@@ -48,6 +48,6 @@ expandAll         | 是否展开左右节点               | Boolean            
 ## Events
 event             | descripton                  | arguments
 ------------------|-----------------------------|------------------------------
-on-expand         | 当任一节点收缩状态改变时触发     | data(当前节点数据), status(当前节点是否展开)
-on-node-click     | 点击节点时触发                 | event(鼠标事件对象), data(当前节点数据), expand(是一个方法，如果点击该节点需要收缩，需要调用次方法)
+on-expand         | 当任一节点收缩状态改变时触发     | data(当前节点数据), status(当前节点是否展开)
+on-node-click     | 点击节点时触发                 | event(鼠标事件对象), data(当前节点数据), expand(是一个方法，如果点击该节点需要收缩，需要调用次方法)
 label-width       | 节点的宽度，不设则随文字宽度自适应| String \| Number      | 'auto'
