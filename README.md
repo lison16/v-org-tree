@@ -1,6 +1,7 @@
 # v-org-tree
 
 [![npm](https://img.shields.io/npm/v/v-org-tree.svg)]()
+[![Build Status](https://travis-ci.com/lison16/v-org-tree.svg?branch=master)](https://travis-ci.com/lison16/v-org-tree)
 
 v-org-tree是一个基于Vue.js2封装的组织结构树组件，支持自定义节点和收缩按钮，高自由度定制，有水平和垂直两种方向。
 
