@@ -32,7 +32,7 @@ npm install
 npm run serve
 ```
 
-## Props
+## Props
 prop              | descripton                   | type                   | default
 ------------------|------------------------------|:----------------------:|---------------------
 data              | 传入的树状数据                 | Object                 | -
