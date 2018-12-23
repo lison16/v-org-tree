@@ -47,7 +47,7 @@ collapsable       | 是否可收缩                    | Boolean                
 node-render       | 渲染节点的render函数           | Function               | -
 button-render     | 渲染收缩按钮的render函数       | Function                | -
 label-class-name  | 节点自定义类名，可以是函数，参数是当前节点数据对象| Function \| String | -
-expandAll         | 是否展开左右节点               | Boolean                | false
+expandAll         | 是否展开所有节点               | Boolean                | false
 
 ## Events
 event             | descripton                  | arguments
