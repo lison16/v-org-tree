@@ -71,9 +71,6 @@ export default {
     },
     expandAll (status) {
       this._toggleExpand(this.dataCloned, status)
-    },
-    dataCloned () {
-      //
     }
   },
   computed: {
