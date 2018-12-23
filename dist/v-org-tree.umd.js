@@ -2163,12 +2163,12 @@ var es6_promise = __webpack_require__("551c");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es7.promise.finally.js
 var es7_promise_finally = __webpack_require__("097d");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ca0e2238-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/org-tree/org-tree.vue?vue&type=template&id=44e55328&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"ca0e2238-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/org-tree/org-tree.vue?vue&type=template&id=89259fc8&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"org-tree-container"},[_c('div',{staticClass:"org-tree",class:{horizontal: _vm.horizontal, collapsable: _vm.collapsable}},[_c('org-tree-node',{attrs:{"data":_vm.dataCloned,"props":_vm.props,"horizontal":_vm.horizontal,"label-width":_vm.labelWidth,"collapsable":_vm.collapsable,"node-render":_vm.nodeRender,"button-render":_vm.buttonRender,"label-class-name":_vm.labelClassName},on:{"on-expand":_vm.handleExpand,"on-node-click":_vm.handleNodeClick}})],1)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/org-tree/org-tree.vue?vue&type=template&id=44e55328&
+// CONCATENATED MODULE: ./src/components/org-tree/org-tree.vue?vue&type=template&id=89259fc8&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
@@ -2383,8 +2383,6 @@ var clonedeep_default = /*#__PURE__*/__webpack_require__.n(clonedeep);
     },
     expandAll: function expandAll(status) {
       this._toggleExpand(this.dataCloned, status);
-    },
-    dataCloned: function dataCloned() {//
     }
   },
   computed: {

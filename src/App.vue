@@ -4,15 +4,17 @@
       <button @click="expandAll = !expandAll">{{ expandAll ? '收起' : '展开' }}</button>
       <button @click="changeData">更新数据</button>
     </div>
-    <org-tree
-      :data="data"
-      collapsable
-      :node-render="nodeRender"
-      :expand-all="expandAll"
-      :horizontal="false"
-      :props="props"
-      @on-expand="onExpand"
-      @on-node-click="onNodeClick"></org-tree>
+    <div class="tree-wrapper">
+      <org-tree
+        :data="data"
+        collapsable
+        :node-render="nodeRender"
+        :expand-all="expandAll"
+        :horizontal="false"
+        :props="props"
+        @on-expand="onExpand"
+        @on-node-click="onNodeClick"></org-tree>
+    </div>
   </div>
 </template>
 
@@ -81,5 +83,11 @@ html, body{
     line-height: 14px;
     box-sizing: content-box;
   }
+}
+.tree-wrapper{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
