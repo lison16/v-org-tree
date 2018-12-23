@@ -14,9 +14,9 @@ npm install v-org-tree
 
 ## Use
 ```
+// 方式1 全局注册
 import OrgTree from 'v-org-tree'
 import 'v-org-tree/dist/v-org-tree.css'
-// 方式1 全局注册
 Vue.use(OrgTree)
 
 // 方式2 局部使用
