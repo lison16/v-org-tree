@@ -7,6 +7,10 @@ v-org-tree是一个基于Vue.js2封装的组织结构树组件，支持自定义
 
 > 本插件借鉴了[vue-org-tree](https://github.com/hukaibaihu/vue-org-tree)实现数据到结构树的呈现。优化了对数据的更新以及一些操作的方式，添加了一些api。
 
+#### 进群和3500+前后端开发者交流学习
+
+![image](https://image-static.segmentfault.com/387/385/3873859459-5c501e09d1d66_articlex)
+
 ## Install
 ```
 npm install v-org-tree
