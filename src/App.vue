@@ -15,6 +15,10 @@
         @on-expand="onExpand"
         @on-node-click="onNodeClick"></org-tree>
     </div>
+    <div class="group-image">
+      <img src="./groups.jpg" alt="" srcset="">
+      <h6>加入iview-admin交流群，和3500+前后端开发者交流学习</h6>
+    </div>
   </div>
 </template>
 
@@ -89,5 +93,17 @@ html, body{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.group-image{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  img{
+    width: 300px;
+  }
+  h6{
+    padding: 0;
+    margin: 0;
+  }
 }
 </style>
