@@ -63,6 +63,10 @@ export const renderLabel = (h, data, context) => {
   const label = data[props.props.label]
   const nodeRender = props.nodeRender
   const clickHandler = context.listeners['on-node-click']
+  const mousedownHandler = context.listeners['on-node-mousedown']
+  const mouseupHandler = context.listeners['on-node-mouseup']
+  const touchstartHandler = context.listeners['on-node-touchstart']
+  const touchleaveHandler = context.listeners['on-node-touchleave']
 
   const childNodes = []
   if (typeof nodeRender === 'function') {
@@ -97,7 +101,11 @@ export const renderLabel = (h, data, context) => {
     },
     style: { width: labelWidth },
     on: {
-      click: e => clickHandler && clickHandler(e, data)
+      click: e => clickHandler && clickHandler(e, data),
+      mousedown: e => mousedownHandler && mousedownHandler(e, data),
+      mouseup: e => mouseupHandler && mouseupHandler(e, data),
+      touchstart: e => touchstartHandler && touchstartHandler(e, data),
+      touchleave: e => touchleaveHandler && touchleaveHandler(e, data)
     }
   }, childNodes)])
 }

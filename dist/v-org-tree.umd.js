@@ -1791,6 +1791,10 @@ var renderLabel = function renderLabel(h, data, context) {
   var label = data[props.props.label];
   var nodeRender = props.nodeRender;
   var clickHandler = context.listeners['on-node-click'];
+  var mousedownHandler = context.listeners['on-node-mousedown'];
+  var mouseupHandler = context.listeners['on-node-mouseup'];
+  var touchstartHandler = context.listeners['on-node-touchstart'];
+  var touchleaveHandler = context.listeners['on-node-touchleave'];
   var childNodes = [];
 
   if (typeof nodeRender === 'function') {
@@ -1831,6 +1835,18 @@ var renderLabel = function renderLabel(h, data, context) {
     on: {
       click: function click(e) {
         return clickHandler && clickHandler(e, data);
+      },
+      mousedown: function mousedown(e) {
+        return mousedownHandler && mousedownHandler(e, data);
+      },
+      mouseup: function mouseup(e) {
+        return mouseupHandler && mouseupHandler(e, data);
+      },
+      touchstart: function touchstart(e) {
+        return touchstartHandler && touchstartHandler(e, data);
+      },
+      touchleave: function touchleave(e) {
+        return touchleaveHandler && touchleaveHandler(e, data);
       }
     }
   }, childNodes)]);
