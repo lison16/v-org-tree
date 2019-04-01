@@ -64,7 +64,7 @@ export default {
     data (newData) {
       this._handleData(newData)
       this._mapData(this.dataCloned, item => {
-        const { expand } = this.flatData[item[this.prop_id]]
+        const { expand } = this.flatData[item[this.prop_id]] || {}
         if (expand) this.$set(item, this.prop_expand, true)
       })
       this._toggleExpand(this.dataCloned, this.expandAll)
