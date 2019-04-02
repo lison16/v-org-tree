@@ -12,6 +12,7 @@
         :label-class-name="labelClassName"
         @on-expand="handleExpand"
         @on-node-click="handleNodeClick"
+        v-bind="$listeners"
       ></org-tree-node>
     </div>
   </div>

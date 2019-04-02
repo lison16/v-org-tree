@@ -94,12 +94,7 @@ export const renderLabel = (h, data, context) => {
   return h('div', {
     domProps: {
       className: 'org-tree-node-label'
-    }
-  }, [h('div', {
-    domProps: {
-      className: cls.join(' ')
     },
-    style: { width: labelWidth },
     on: {
       click: e => clickHandler && clickHandler(e, data),
       mousedown: e => mousedownHandler && mousedownHandler(e, data),
@@ -107,6 +102,11 @@ export const renderLabel = (h, data, context) => {
       touchstart: e => touchstartHandler && touchstartHandler(e, data),
       touchleave: e => touchleaveHandler && touchleaveHandler(e, data)
     }
+  }, [h('div', {
+    domProps: {
+      className: cls.join(' ')
+    },
+    style: { width: labelWidth }
   }, childNodes)])
 }
 

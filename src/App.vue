@@ -16,7 +16,7 @@
         @on-node-click="onNodeClick"></org-tree>
     </div>
     <div class="group-image">
-      <img src="./groups.jpg" alt="" srcset="">
+      <!-- <img src="./groups.jpg" alt="" srcset=""> -->
       <h6>加入iview-admin交流群，和3500+前后端开发者交流学习</h6>
     </div>
   </div>

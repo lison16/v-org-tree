@@ -1704,12 +1704,12 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.function.name.js
 var es6_function_name = __webpack_require__("7f7f");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"553e40dc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/org-tree/org-tree.vue?vue&type=template&id=59565304&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"org-tree-container"},[_c('div',{staticClass:"org-tree",class:{horizontal: _vm.horizontal, collapsable: _vm.collapsable}},[_c('org-tree-node',{attrs:{"data":_vm.dataCloned,"props":_vm.props,"horizontal":_vm.horizontal,"label-width":_vm.labelWidth,"collapsable":_vm.collapsable,"node-render":_vm.nodeRender,"button-render":_vm.buttonRender,"label-class-name":_vm.labelClassName},on:{"on-expand":_vm.handleExpand,"on-node-click":_vm.handleNodeClick}})],1)])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"553e40dc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/org-tree/org-tree.vue?vue&type=template&id=56dd2042&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"org-tree-container"},[_c('div',{staticClass:"org-tree",class:{horizontal: _vm.horizontal, collapsable: _vm.collapsable}},[_c('org-tree-node',_vm._b({attrs:{"data":_vm.dataCloned,"props":_vm.props,"horizontal":_vm.horizontal,"label-width":_vm.labelWidth,"collapsable":_vm.collapsable,"node-render":_vm.nodeRender,"button-render":_vm.buttonRender,"label-class-name":_vm.labelClassName},on:{"on-expand":_vm.handleExpand,"on-node-click":_vm.handleNodeClick}},'org-tree-node',_vm.$listeners,false))],1)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/org-tree/org-tree.vue?vue&type=template&id=59565304&
+// CONCATENATED MODULE: ./src/components/org-tree/org-tree.vue?vue&type=template&id=56dd2042&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js
 var is_array = __webpack_require__("a745");
@@ -1815,13 +1815,6 @@ var renderLabel = function renderLabel(h, data, context) {
   return h('div', {
     domProps: {
       className: 'org-tree-node-label'
-    }
-  }, [h('div', {
-    domProps: {
-      className: cls.join(' ')
-    },
-    style: {
-      width: labelWidth
     },
     on: {
       click: function click(e) {
@@ -1839,6 +1832,13 @@ var renderLabel = function renderLabel(h, data, context) {
       touchleave: function touchleave(e) {
         return touchleaveHandler && touchleaveHandler(e, data);
       }
+    }
+  }, [h('div', {
+    domProps: {
+      className: cls.join(' ')
+    },
+    style: {
+      width: labelWidth
     }
   }, childNodes)]);
 }; // 创建 node 子节点
@@ -1870,6 +1870,7 @@ var clonedeep_default = /*#__PURE__*/__webpack_require__.n(clonedeep);
 
 
 
+//
 //
 //
 //

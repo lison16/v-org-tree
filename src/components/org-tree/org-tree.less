@@ -12,10 +12,12 @@
   &:before, &:after {
     content: '';
     display: table;
+    pointer-events: none;
   }
 
   &:after {
     clear: both;
+    pointer-events: none;
   }
 }
 
@@ -28,6 +30,7 @@
 
   &:before, &:after {
     transition: all .35s;
+    pointer-events: none;
   }
 }
 .org-tree-node-label {
@@ -75,6 +78,7 @@
     &:before, &:after {
       content: '';
       position: absolute;
+      pointer-events: none;
     }
 
     &:before {
@@ -91,10 +95,12 @@
       bottom: 4px;
       width: 0;
       border-left: 1px solid #ccc;
+      pointer-events: none;
     }
 
     &.expanded:after {
       border: none;
+      pointer-events: none;
     }
   }
 }
@@ -110,6 +116,7 @@
   }
 
   &:before, &:after {
+    pointer-events: none;
     content: '';
     position: absolute;
     top: 0;
@@ -121,11 +128,13 @@
   &:after {
     left: 50%;
     border-left: 1px solid #ddd;
+    pointer-events: none;
   }
 
   &:not(:first-child):before,
   &:not(:last-child):after {
     border-top: 1px solid #ddd;
+    pointer-events: none;
   }
 
 }
@@ -140,6 +149,7 @@
     width: 50%;
     height: 20px;
     border-right: 1px solid #ddd;
+    pointer-events: none;
   }
 
   // &.collapsed{
@@ -153,6 +163,7 @@
 
   &:after {
     border-left: 0;
+    pointer-events: none;
   }
 }
 .org-tree-node-children {
@@ -173,6 +184,7 @@
     content: '';
     display: table;
     clear: both;
+    pointer-events: none;
   }
 }
 
@@ -195,12 +207,14 @@
     &:before, &:after {
       width: 19px;
       height: 50%;
+      pointer-events: none;
     }
 
     &:after {
       top: 50%;
       left: 0;
       border-left: 0;
+      pointer-events: none;
     }
 
     &:only-child:before {
@@ -212,10 +226,12 @@
     &:not(:last-child):after {
       border-top: 0;
       border-left: 1px solid #ddd;
+      pointer-events: none;
     }
 
     &:not(:only-child):after {
       border-top: 1px solid #ddd;
+      pointer-events: none;
     }
 
     .org-tree-node-inner {
@@ -240,6 +256,7 @@
         height: 50%;
         border-right: 0;
         border-bottom: 0.625em solid #ddd;
+        pointer-events: none;
       }
     }
   }
